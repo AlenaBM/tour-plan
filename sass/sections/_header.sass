@@ -1,4 +1,43 @@
 .header-top
-  background: #000
   padding-top: 40px
   padding-bottom: 40px
+  display: flex
+  justify-content: space-between
+  align-items: center
+  font-size: 14px
+  &__search
+    margin-right: auto
+    margin-left: 9.7%
+.form-search
+  position: relative
+  overflow: hidden
+  border-radius: 6px
+  height: 40px
+  &__input
+    background: #F5FAFE
+    box-sizing: border-box
+    width: 350px
+    height: 100%
+    border: none
+    font-size: 12px
+    line-height: 15px
+    padding-left: 23px
+    padding-right: 75px
+  &__btn
+    position: absolute
+    top: 0
+    right: 0
+    height: 100%
+    width: 65px
+    border: none
+    background-color: $active-color
+.user
+  display: flex
+  align-items: center
+  &__img
+    width: 40px
+    height: 40px
+    border-radius: 50%
+    object-fit: cover
+  &__name
+    margin-left: 18px
