@@ -33,7 +33,11 @@
             </button>
           </form>
           <a href="#" class="user">
-            <img src="img/user.jpg" alt="User: Nathan" class="user__img" />
+            <img
+              src="img/user.jpg"
+              alt="User: Nathan"
+              class="user__img img-poly"
+            />
             <span class="user__name">Nathan</span>
           </a>
           <!-- /.user -->
@@ -60,6 +64,10 @@
       </div>
       <!-- /.navbar-bottom -->
     </header>
+    <script src="polyfill.js"></script>
+    <script>
+      objectFitImages();
+    </script>
   </body>
   <!-- Here we will make a google map, form for booking :) -->
 </html>

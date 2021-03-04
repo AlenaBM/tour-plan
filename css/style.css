@@ -17,8 +17,8 @@ button {
   cursor: pointer;
 }
 
-img {
-  max-width: 100%;
+.img-poly {
+  font-family: 'object-fit: cover';
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -459,6 +459,8 @@ template {
   border-radius: 50%;
   -o-object-fit: cover;
      object-fit: cover;
+  -o-fit-object: cover;
+  background-size: cover;
 }
 
 .user__name {
