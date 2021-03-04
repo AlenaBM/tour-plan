@@ -402,6 +402,10 @@ template {
   text-transform: uppercase;
 }
 
+.logo__img {
+  width: 177px;
+}
+
 .form-search {
   position: relative;
   overflow: hidden;
