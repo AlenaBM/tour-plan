@@ -585,8 +585,16 @@ template {
   line-height: 18px;
 }
 
-.rating__item {
+.rating__counter::after {
+  content: '5';
   font-size: 11px;
+}
+
+.icon {
+  fill: #F2994A;
+  height: 6px;
+  width: 6px;
+  margin-right: -2px;
 }
 
 @media (max-width: 992px) {
