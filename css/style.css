@@ -667,7 +667,7 @@ template {
   background-image: url(../img/slider-hotel-grid/prev.svg);
 }
 
-.booking-info {
+.booking {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -709,7 +709,7 @@ template {
   line-height: 19px;
 }
 
-.booking__price {
+.booking-card__info {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -719,7 +719,7 @@ template {
   margin-bottom: 9px;
 }
 
-.price {
+.booking-card__price {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -729,25 +729,29 @@ template {
           flex-direction: column;
 }
 
-.price__start {
+.booking-card__start {
   font-weight: normal;
   font-size: 10px;
   line-height: 14px;
 }
 
-.price__pricetag {
+.booking-card__pricetag {
   font-weight: 800;
   font-size: 24px;
   line-height: 33px;
 }
 
-.price__per-room {
+.booking-card__per-room {
   font-weight: normal;
   font-size: 12px;
   line-height: 16px;
 }
 
-.person-room__text {
+.booking-card__guests {
+  margin-top: 4px;
+}
+
+.price__text {
   font-size: 12px;
   line-height: 16px;
   display: -webkit-box;
@@ -762,11 +766,7 @@ template {
   margin-bottom: 8px;
 }
 
-.person-room__container {
-  margin-top: 4px;
-}
-
-.person-room__description {
+.price__description {
   margin-left: 9px;
 }
 
