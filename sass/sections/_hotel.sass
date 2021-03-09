@@ -20,6 +20,9 @@
     text-transform: uppercase
     font-size: 24px
     line-height: 30px
+  &-grid
+    display: flex
+    justify-content: space-between
 .offer
   color: $text-color
   font-size: 10px
@@ -80,7 +83,7 @@
     position: absolute
     top: 50%
     transform: translateY(-50%)
-    z-index: 99
+    z-index: 97
     border: none
     width: 30px
     height: 30px
@@ -91,7 +94,36 @@
     background-color: transparent
     &--next
       right: 18px
-      background-image: url(../../img/slider-hotel-grid/next.svg)
+      background-image: url(../img/slider-hotel-grid/next.svg)
     &--prev
       left: 18px
-      background-image: url(../../img/slider-hotel-grid/prev.svg)
+      background-image: url(../img/slider-hotel-grid/prev.svg)
+.booking
+  &-info
+    display: flex
+    flex-direction: column
+  &-card
+    background-color: $ocean-color
+    color: $text-color
+    padding: 27px
+    border-radius: 8px
+    font-family: 'Nunito', sans-serif
+    width: 350px
+  &-price
+    display: flex
+    justify-content: space-between
+.price
+  display: flex
+  flex-direction: column
+  &__start
+    font-weight: normal
+    font-size: 10px
+    line-height: 14px
+  &__pricetag
+    font-weight: 800
+    font-size: 24px
+    line-height: 33px
+  &__per-room
+    font-weight: normal
+    font-size: 12px
+    line-height: 16px
