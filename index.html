@@ -9,6 +9,7 @@
       href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&family=Nunito:wght@400;700;800&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="css/slider.css" />
     <link rel="stylesheet" href="css/style.css" />
     <title>Best Tour Plan - Hotel booking</title>
   </head>
@@ -110,12 +111,59 @@
         <!-- /hotel-info__rating -->
       </div>
       <!-- /hotel-info container -->
+      <div class="hotel-grid container">
+        <div class="slider">
+          <div class="swiper-container">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <img
+                  src="img/slider-hotel-grid/slide.jpg"
+                  alt="Slide"
+                  class="swiper-slide__img"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="img/slider-hotel-grid/slide2.jpg"
+                  alt="Slide"
+                  class="swiper-slide__img"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="img/slider-hotel-grid/slide3.jpg"
+                  alt="Slide"
+                  class="swiper-slide__img"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="img/slider-hotel-grid/slide4.jpg"
+                  alt="Slide"
+                  class="swiper-slide__img"
+                />
+              </div>
+            </div>
+            <!-- /swiper-wrapper -->
+
+            <button class="slider-button slider-button--prev"></button>
+            <button class="slider-button slider-button--next"></button>
+          </div>
+          <!-- /swiper-container -->
+        </div>
+        <!-- /.slider -->
+      </div>
+      <!-- /hotel-grid -->
     </section>
+
+    <script src="js/slider.js"></script>
+    <script src="js/script.js"></script>
     <script src="polyfill.js"></script>
     <script>
       objectFitImages();
     </script>
-    <script src="js/slider.js"></script>
   </body>
   <!-- Here we will make a google map, form for booking :) -->
 </html>
