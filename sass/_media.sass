@@ -4,10 +4,9 @@
 @media (max-width: 1200px)
   .container
     max-width: 960px
-  .slider
-    width: 590px
-  .swiper
-    &-slide
+  .hotel
+    &-slider
+      width: 590px
       &__img
         height: 100%
         object-fit: cover
@@ -40,8 +39,9 @@
       flex-direction: column
     &__slider
       margin-bottom: 30px
-  .slider
-    width: 100%
+  .hotel
+    &-slider
+      width: 100%
   .booking
     flex-direction: row
 
@@ -62,8 +62,9 @@
       width: 250px
     &__btn
       width: 55px
-  .slider
-    height: 350px
+  .hotel
+    &-slider
+      height: 350px
   .booking
     flex-direction: column
     min-height: 450px
@@ -116,19 +117,19 @@
         margin-left: 0
       &__name
         margin-top: 10px
+    &-slider
+      height: 180px
+      &__button
+        width: 10px
+        height: 10px
+        &--next
+          right: 6px
+        &--prev
+          left: 6px
   .rating
     display: none
   .stars
     flex-basis: auto
-  .slider
-    height: 180px
-    &-button
-      width: 10px
-      height: 10px
-      &--next
-        right: 6px
-      &--prev
-        left: 6px
   .booking
     min-height: 400px
     &-card
