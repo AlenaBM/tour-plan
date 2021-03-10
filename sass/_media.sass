@@ -14,7 +14,8 @@
 
 // — до 992px
 @media (max-width: 992px)
-  .container
+  .container,
+  .newsletter-wrap
     width: 700px
   .navbar
     &-top
@@ -46,7 +47,8 @@
 
 // — до 768px
 @media (max-width: 768px)
-  .container
+  .container,
+  .newsletter-wrap
     width: 88%
   .navbar
     &-menu
@@ -67,6 +69,10 @@
     min-height: 450px
     &-map
       width: 100%
+  .newsletter
+    &-wrap
+      flex-direction: column
+      align-items: flex-start
 
 // — от 320 до 576px 
 @media (min-width: 320px) and (max-width: 576px)
@@ -137,3 +143,15 @@
   .call-center
     font-size: 14.4px
     line-height: 20px
+  .newsletter
+    padding: 76px 0 83px 0
+    &__title
+      margin-bottom: 37px
+    &-title
+      font-size: 18px
+      line-height: 23px
+      &__strong
+        font-size: 26px
+        line-height: 33px
+  .subscribe
+    width: 100%

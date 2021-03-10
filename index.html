@@ -212,15 +212,15 @@
           </div>
           <!-- /booking-card -->
           <div class="booking-map">
-            <div id="map" style="width: 100%; height: 213px"></div>
-            <!-- <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4733.850942229529!2d98.29348543030147!3d7.890863038838664!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30503b7bfcd9f903%3A0xf7065fac1e3d7c48!2sDoubleTree%20by%20Hilton%20Phuket%20Banthai%20Resort!5e0!3m2!1sru!2sru!4v1615303754654!5m2!1sru!2sru"
-              width="100%"
-              height="213"
-              style="border: 0"
-              allowfullscreen=""
-              loading="lazy"
-            ></iframe> -->
+            <div
+              id="map"
+              style="
+                width: 100%;
+                height: 213px;
+                border-radius: 10px;
+                overflow: hidden;
+              "
+            ></div>
           </div>
           <!-- /booking-map -->
         </div>
@@ -228,6 +228,24 @@
       </div>
       <!-- /hotel-grid -->
     </section>
+    <section class="newsletter">
+      <div class="newsletter-wrap">
+        <h2 class="newsletter-title newsletter__title">
+          subscribe to our
+          <span class="newsletter-title__strong"> Newsletter </span>
+        </h2>
+        <form action="#" class="subscribe newsletter__subscribe">
+          <input
+            type="email"
+            placeholder="Your email address"
+            class="subscribe__input"
+          />
+          <button class="subscribe__btn">Send</button>
+        </form>
+      </div>
+      <!-- /.newsletter-wrap -->
+    </section>
+    <!-- /.newsletter -->
 
     <script src="js/slider.js"></script>
     <script src="js/script.js"></script>
