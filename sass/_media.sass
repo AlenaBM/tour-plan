@@ -63,7 +63,6 @@
   .card
     min-width: 340px
     max-height: 255px
-    &__img
 
 // — до 768px
 @media (max-width: 768px)
@@ -114,6 +113,14 @@
           right: 50%
           transform: translate(50%, 0)
           margin-right: -65px
+  .activities
+    &-wrap
+      flex-wrap: wrap
+      min-height: 1100px
+      align-content: space-between
+  .card
+    min-width: 100%
+    max-height: 255px
 
 // — от 320 до 576px 
 @media (min-width: 320px) and (max-width: 576px)
@@ -144,6 +151,7 @@
   .form-search, .user, .navbar-bottom
     display: none
   .hotel
+    padding-top: 0
     &-wrap
       justify-content: space-between
     &-name
