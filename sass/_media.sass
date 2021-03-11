@@ -10,6 +10,9 @@
       &__img
         height: 100%
         object-fit: cover
+  .card
+    max-width: 230px
+    max-height: 230px
 
 // — до 992px
 @media (max-width: 992px)
@@ -51,7 +54,16 @@
       line-height: 38px
     &-slider
       &__item
-        max-width: 580px
+        min-width: 580px
+  .activities
+    &-wrap
+      flex-wrap: wrap
+      min-height: 530px
+      align-content: space-between
+  .card
+    min-width: 340px
+    max-height: 255px
+    &__img
 
 // — до 768px
 @media (max-width: 768px)
