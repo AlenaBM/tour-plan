@@ -1193,7 +1193,7 @@ template {
     line-height: 38px;
   }
   .reviews-slider__item {
-    min-width: 580px;
+    max-width: 580px;
   }
   .activities-wrap {
     -ms-flex-wrap: wrap;
