@@ -618,6 +618,10 @@ template {
   background-image: url(../img/slider-hotel-grid/prev.svg);
 }
 
+.swiper-container {
+  margin-left: 0;
+}
+
 .offer {
   color: #fff;
   font-size: 10px;
@@ -1094,6 +1098,9 @@ template {
         -ms-flex-direction: row;
             flex-direction: row;
   }
+  .booking__button {
+    padding: 13px 79px;
+  }
   .reviews__title {
     font-size: 30px;
     line-height: 38px;
@@ -1130,9 +1137,6 @@ template {
         -ms-flex-direction: column;
             flex-direction: column;
     min-height: 450px;
-  }
-  .booking-map {
-    width: 100%;
   }
   .newsletter-wrap {
     -webkit-box-orient: vertical;
