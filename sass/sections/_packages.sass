@@ -12,6 +12,9 @@
     margin-bottom: 65px
   &-grid
     display: grid
+    grid-template: 1fr 1fr / 1fr 1fr 1fr
+    column-gap: 30px
+    row-gap: 30px
   &-card
     width: 350px
     height: 500px
@@ -25,6 +28,7 @@
       width: 730px
       height: 500px
       flex-direction: row
+      grid-column-start: span 2
     &__abouthotel
       font-style: normal
       font-weight: normal
