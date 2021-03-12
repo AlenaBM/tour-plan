@@ -13,7 +13,10 @@
   .card
     max-width: 230px
     max-height: 230px
-
+  .packages
+    &-card
+      &__abouthotel
+        font-size: 13px
 // — до 992px
 @media (max-width: 992px)
   .container,
@@ -63,6 +66,14 @@
   .card
     min-width: 340px
     max-height: 255px
+  .packages
+    &-grid
+      grid-template: 1fr 1fr 1fr / 1fr 1fr
+      column-gap: 25px
+      row-gap: 25px
+    &-card
+      &--active
+        grid-column-start: span 2
 
 // — до 768px
 @media (max-width: 768px)
@@ -121,6 +132,42 @@
   .card
     min-width: 100%
     max-height: 255px
+  .packages
+    &-grid
+      grid-template: 1fr 1fr 1fr/ 1fr 1fr
+      column-gap: 20px
+      row-gap: 20px
+    &-card
+      height: 400px
+      &--active
+        height: 400px
+        grid-column-start: span 2
+      &__description
+        padding: 20px 20px 20px 24px
+        &--active
+          padding: 25px 20px 20px 30px
+      &__title
+        margin-bottom: 10px
+        font-size: 16px
+        &--active
+          margin-bottom: 18px
+          font-size: 18px
+      &__abouthotel
+        font-size: 12px
+        margin-bottom: 22px
+      &__guests
+        height: 54px
+        margin-bottom: 10px
+        &--active
+          height: 58px
+          margin-bottom: 24px
+      &__price
+        font-size: 22px
+      &__button
+        font-size: 12px
+        padding: 7px 22px
+      &__canceledprice
+        display: none
 
 // — от 320 до 576px 
 @media (min-width: 320px) and (max-width: 576px)

@@ -1157,7 +1157,6 @@ template {
 }
 
 .packages-card {
-  width: 350px;
   height: 500px;
   border-radius: 8px;
   overflow: hidden;
@@ -1174,7 +1173,6 @@ template {
 }
 
 .packages-card--active {
-  width: 730px;
   height: 500px;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
@@ -1319,6 +1317,9 @@ template {
     max-width: 230px;
     max-height: 230px;
   }
+  .packages-card__abouthotel {
+    font-size: 13px;
+  }
 }
 
 @media (max-width: 992px) {
@@ -1381,6 +1382,18 @@ template {
   .card {
     min-width: 340px;
     max-height: 255px;
+  }
+  .packages-grid {
+    -ms-grid-rows: 1fr 1fr 1fr;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template: 1fr 1fr 1fr / 1fr 1fr;
+    -webkit-column-gap: 25px;
+            column-gap: 25px;
+    row-gap: 25px;
+  }
+  .packages-card--active {
+    -ms-grid-column: span 2;
+        grid-column-start: span 2;
   }
 }
 
@@ -1460,6 +1473,58 @@ template {
   .card {
     min-width: 100%;
     max-height: 255px;
+  }
+  .packages-grid {
+    -ms-grid-rows: 1fr 1fr 1fr;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template: 1fr 1fr 1fr/ 1fr 1fr;
+    -webkit-column-gap: 20px;
+            column-gap: 20px;
+    row-gap: 20px;
+  }
+  .packages-card {
+    height: 400px;
+  }
+  .packages-card--active {
+    height: 400px;
+    -ms-grid-column: span 2;
+        grid-column-start: span 2;
+  }
+  .packages-card__description {
+    padding: 20px 20px 20px 24px;
+  }
+  .packages-card__description--active {
+    padding: 25px 20px 20px 30px;
+  }
+  .packages-card__title {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  .packages-card__title--active {
+    margin-bottom: 18px;
+    font-size: 18px;
+  }
+  .packages-card__abouthotel {
+    font-size: 12px;
+    margin-bottom: 22px;
+  }
+  .packages-card__guests {
+    height: 54px;
+    margin-bottom: 10px;
+  }
+  .packages-card__guests--active {
+    height: 58px;
+    margin-bottom: 24px;
+  }
+  .packages-card__price {
+    font-size: 22px;
+  }
+  .packages-card__button {
+    font-size: 12px;
+    padding: 7px 22px;
+  }
+  .packages-card__canceledprice {
+    display: none;
   }
 }
 
