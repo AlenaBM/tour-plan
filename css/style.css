@@ -1127,6 +1127,24 @@ template {
   padding: 7px 22px;
 }
 
+.packages {
+  padding: 30px 0 70px 0;
+}
+
+.packages-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 45px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.packages__title {
+  margin-bottom: 65px;
+}
+
 @media (max-width: 1200px) {
   .container {
     max-width: 960px;
