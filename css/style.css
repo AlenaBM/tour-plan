@@ -1195,6 +1195,15 @@ template {
   position: absolute;
   top: 26px;
   border-radius: 0 4px 4px 0;
+  font-size: 8px;
+  line-height: 10px;
+  padding: 4px 9px;
+}
+
+.packages-card__offer--active {
+  font-size: 12px;
+  line-height: 15px;
+  padding: 7px 11px;
 }
 
 .packages-card__img {
@@ -1691,6 +1700,11 @@ template {
   }
   .packages-card {
     height: 360px;
+  }
+  .packages-card__offer--active {
+    font-size: 11px;
+    line-height: 15px;
+    padding: 5px 9px;
   }
   .packages-card__img {
     width: 100%;
