@@ -17,6 +17,35 @@
     &-card
       &__abouthotel
         font-size: 13px
+  .footer
+    &-wrap
+      grid-template-columns: repeat(6, 1fr)
+    &__input
+      flex-basis: 100%
+    &-bottom
+      width: 65%
+    &__logo
+      grid-row: 1 / 2
+      grid-column: span 2
+    &__social
+      &-network
+        grid-row: 1 / 2
+        grid-column: span 4
+        align-self: center
+    &__categories
+      grid-row: 2 / 3
+      grid-column: span 2
+    &__legal
+      grid-column: span 2
+    &__additional
+      grid-column: span 2
+    &__contact
+      &-details
+        grid-row: 3
+        grid-column: span 4
+      &-form
+        grid-row: 4
+        grid-column: span 4
 // — до 992px
 @media (max-width: 992px)
   .container,
@@ -74,7 +103,14 @@
     &-card
       &--active
         grid-column-start: span 2
-
+  .footer
+    &__logo
+      width: 104px
+      height: 120px
+    &-wrap
+      column-gap: 20px
+    &-bottom
+      width: 100%
 // — до 768px
 @media (max-width: 768px)
   .container,

@@ -1567,6 +1567,54 @@ template {
   .packages-card__abouthotel {
     font-size: 13px;
   }
+  .footer-wrap {
+    -ms-grid-columns: (1fr)[6];
+        grid-template-columns: repeat(6, 1fr);
+  }
+  .footer__input {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+  }
+  .footer-bottom {
+    width: 65%;
+  }
+  .footer__logo {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1 / 2;
+    grid-column: span 2;
+  }
+  .footer__social-network {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1 / 2;
+    grid-column: span 4;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  .footer__categories {
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    grid-row: 2 / 3;
+    grid-column: span 2;
+  }
+  .footer__legal {
+    grid-column: span 2;
+  }
+  .footer__additional {
+    grid-column: span 2;
+  }
+  .footer__contact-details {
+    -ms-grid-row: 3;
+    grid-row: 3;
+    grid-column: span 4;
+  }
+  .footer__contact-form {
+    -ms-grid-row: 4;
+    grid-row: 4;
+    grid-column: span 4;
+  }
 }
 
 @media (max-width: 992px) {
@@ -1641,6 +1689,17 @@ template {
   .packages-card--active {
     -ms-grid-column: span 2;
         grid-column-start: span 2;
+  }
+  .footer__logo {
+    width: 104px;
+    height: 120px;
+  }
+  .footer-wrap {
+    -webkit-column-gap: 20px;
+            column-gap: 20px;
+  }
+  .footer-bottom {
+    width: 100%;
   }
 }
 
