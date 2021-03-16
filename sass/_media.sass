@@ -18,34 +18,10 @@
       &__abouthotel
         font-size: 13px
   .footer
-    &-wrap
-      grid-template-columns: repeat(6, 1fr)
-    &__input
-      flex-basis: 100%
     &-bottom
       width: 65%
-    &__logo
-      grid-row: 1 / 2
-      grid-column: span 2
-    &__social
-      &-network
-        grid-row: 1 / 2
-        grid-column: span 4
-        align-self: center
-    &__categories
-      grid-row: 2 / 3
-      grid-column: span 2
-    &__legal
-      grid-column: span 2
-    &__additional
-      grid-column: span 2
-    &__contact
-      &-details
-        grid-row: 3
-        grid-column: span 4
-      &-form
-        grid-row: 4
-        grid-column: span 4
+    &__input
+      flex-basis: 100%
 // — до 992px
 @media (max-width: 992px)
   .container,
@@ -104,13 +80,50 @@
       &--active
         grid-column-start: span 2
   .footer
+    padding: 60px 0 146px 0
+    &__title
+      &--inline
+        font-weight: bold
+        font-size: 27.75px
+        line-height: 35px
+    &__icon
+      width: 30px
+      height: 30px
+    &__social
+      &-links
+        min-width: 131px
+    &-wrap
+      grid-template-columns: repeat(6, 1fr)
+      row-gap: 45px
+      column-gap: 20px
+    &__input
+      flex-basis: 48%
     &__logo
       width: 104px
       height: 120px
-    &-wrap
-      column-gap: 20px
+      grid-row: 1 / 2
+      grid-column: span 2
     &-bottom
       width: 100%
+    &__social
+      &-network
+        grid-row: 1 / 2
+        grid-column: span 4
+        align-self: center
+    &__categories
+      grid-row: 2 / 3
+      grid-column: span 2
+    &__legal
+      grid-column: span 2
+    &__additional
+      grid-column: span 2
+    &__contact
+      &-details
+        grid-row: 3
+        grid-column: span 4
+      &-form
+        grid-row: 4
+        grid-column: span 5
 // — до 768px
 @media (max-width: 768px)
   .container,
@@ -211,6 +224,20 @@
         padding: 7px 22px
       &__canceledprice
         display: none
+  .footer
+    &__input
+      flex-basis: 100%
+    &__title
+      &--inline
+        font-weight: bold
+        font-size: 18px
+        line-height: 23px
+    &__icon
+      width: 36px
+      height: 36px
+    &__social
+      &-links
+        min-width: 130px
 @media (max-width: 626px)
   .packages
     &-title
@@ -332,3 +359,65 @@
         flex-direction: column
       &__description
         &--active
+  .footer
+    padding: 60px 0 55px 0
+    &-wrap
+      grid-template-columns: 1fr
+      column-gap: 0
+      row-gap: 35px
+      &--grid
+        margin-bottom: 26px
+    &__logo
+      grid-row: 1
+      grid-column: 1
+      width: 121px
+      height: 139.95px
+    &__title
+      &--inline
+        margin-bottom: 8px
+    &__social
+      &-network
+        grid-row: 2
+        grid-column: 1
+        font-weight: bold
+        font-size: 18px
+        line-height: 23px
+        display: flex
+        flex-direction: column
+        align-items: flex-start
+    &__legal
+      grid-row: 3
+      grid-column: 1
+    &__additional
+      grid-row: 4
+      grid-column: 1
+    &__categories
+      grid-row: 5
+      grid-column: 1
+    &__contact
+      &-details
+        grid-row: 7
+        grid-column: 1
+      &-form
+        grid-row: 8
+        grid-column: 1
+    &__form
+      flex-direction: column
+      align-items: flex-start
+    &__input
+      min-height: 50px
+      width: 100%
+    &__message
+      margin-bottom: 20px
+      width: 100%
+    &__info
+      order: 1
+      margin-bottom: 20px
+      font-weight: normal
+    &__button
+      order: 2
+    &-bottom
+      flex-direction: column
+      &__info
+        width: 100%
+        margin-bottom: 20px
