@@ -1477,6 +1477,10 @@ template {
   -ms-flex-preferred-size: 47%;
       flex-basis: 47%;
   outline: none;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #BDBDBD;
 }
 
 .footer__message {
@@ -1490,6 +1494,10 @@ template {
   outline: none;
   max-height: 123px;
   margin-bottom: 15px;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #BDBDBD;
 }
 
 .footer__button {
