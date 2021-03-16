@@ -1511,18 +1511,12 @@ template {
 }
 
 .footer-bottom {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  float: right;
-  width: 696px;
+  position: relative;
 }
 
 .footer-bottom__info {
-  min-width: 283px;
+  width: 283px;
+  margin: auto;
 }
 
 .footer-bottom__list {
@@ -1546,6 +1540,9 @@ template {
 .footer-bottom__img {
   width: 163px;
   height: 22px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
 }
 
 @media (max-width: 1200px) {
@@ -1566,9 +1563,6 @@ template {
   }
   .packages-card__abouthotel {
     font-size: 13px;
-  }
-  .footer-bottom {
-    width: 65%;
   }
   .footer__input {
     -ms-flex-preferred-size: 100%;
@@ -1683,8 +1677,8 @@ template {
     grid-row: 1 / 2;
     grid-column: span 2;
   }
-  .footer-bottom {
-    width: 100%;
+  .footer-bottom__info {
+    margin-left: 0px;
   }
   .footer__social-network {
     -ms-grid-row: 1;
@@ -2158,7 +2152,10 @@ template {
   }
   .footer-bottom__info {
     width: 100%;
-    margin-bottom: 20px;
+    padding-bottom: 35px;
+  }
+  .footer-bottom__img {
+    left: 0;
   }
 }
 /*# sourceMappingURL=style.css.map */
