@@ -130,8 +130,52 @@
     width: 88%
   .navbar
     &-menu
-      font-size: 10px
+      font-size: 12px
       line-height: 15px
+      flex-direction: column
+      align-items: center
+      &__item
+        margin-bottom: 20px
+    &__mobile
+      &_fixed
+        position: fixed
+        width: 100%
+        top: 0
+        left: 0
+        right: 0
+        z-index: 99
+    &__user, &__search
+      &_mobile
+        &_hidden
+          display: none
+        &_visible
+          display: flex
+    &-bottom
+      display: none
+      position: fixed
+      left: 0
+      right: 0
+      bottom: 0
+      top: 76px
+      &--visible
+        display: block
+  body
+    padding-top: 76px
+  .menu
+    &-button
+      display: flex
+      width: 16px
+      height: 11px
+      align-items: center
+      justify-content: space-between
+      flex-direction: column
+      border: none
+      background-color: #fff
+      cursor: pointer
+      &__line
+        width: 16px
+        height: 1px
+        background-color: $text-main-color
   .logo
     &__img
       width: 100px
@@ -257,23 +301,6 @@
     &-top
       padding-top: 28px
       padding-bottom: 28px
-  .menu
-    &-button
-      display: flex
-      width: 16px
-      height: 11px
-      align-items: center
-      justify-content: space-between
-      flex-direction: column
-      border: none
-      background-color: #fff
-      cursor: pointer
-      &__line
-        width: 16px
-        height: 1px
-        background-color: $text-main-color
-  .form-search, .user, .navbar-bottom
-    display: none
   .hotel
     padding-top: 0
     padding-bottom: 30px
