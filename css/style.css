@@ -1741,11 +1741,15 @@ template {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    padding-top: 0;
   }
   .navbar-menu__item {
     margin-bottom: 20px;
   }
-  .navbar__mobile_fixed {
+  .navbar-menu__item_mobile_visible {
+    display: block;
+  }
+  .navbar--mobile_fixed {
     position: fixed;
     width: 100%;
     top: 0;
@@ -1753,13 +1757,23 @@ template {
     right: 0;
     z-index: 99;
   }
-  .navbar__user_mobile_hidden, .navbar__search_mobile_hidden {
+  .navbar-top__user_mobile_hidden, .navbar-top__search_mobile_hidden {
     display: none;
   }
-  .navbar__user_mobile_visible, .navbar__search_mobile_visible {
+  .navbar-top__user_mobile_visible, .navbar-top__search_mobile_visible {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+  }
+  .navbar-top__user_mobile_visible {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    color: #fff;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
   }
   .navbar-bottom {
     display: none;
@@ -1767,7 +1781,8 @@ template {
     left: 0;
     right: 0;
     bottom: 0;
-    top: 76px;
+    top: 70px;
+    padding-top: 30px;
   }
   .navbar-bottom--visible {
     display: block;
@@ -1799,6 +1814,10 @@ template {
     width: 16px;
     height: 1px;
     background-color: #333;
+  }
+  .user__name {
+    margin-top: 10px;
+    margin-left: 0;
   }
   .logo__img {
     width: 100px;
