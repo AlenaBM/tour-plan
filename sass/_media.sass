@@ -153,17 +153,8 @@
         &_mobile
           &_hidden
             display: none
-          &_visible
-            display: flex
-    &-top
-      &__user
-        &_mobile
-          &_visible
-            flex-direction: column
-            color: $text-color
-            font-weight: normal
-            font-size: 14px
-            line-height: 18px
+          // &_visible
+          //   display: flex
     &-bottom
       display: none
       position: fixed
@@ -192,6 +183,12 @@
         height: 1px
         background-color: $text-main-color
   .user
+    &_visible
+      flex-direction: column
+      color: $text-color
+      font-weight: normal
+      font-size: 14px
+      line-height: 18px
     &__name
       margin-top: 10px
       margin-left: 0
@@ -203,6 +200,8 @@
       width: 250px
     &__btn
       width: 55px
+    &_visible
+      display: flex
   .hotel
     padding-bottom: 30px
     &-slider
@@ -351,7 +350,6 @@
   .booking
     min-height: 400px
     &-card
-      max-height: 180px
       padding: 21px
       &__button
         padding: 9px 62px
@@ -375,10 +373,13 @@
   .subscribe
     width: 100%
   .reviews
+    padding-bottom: 50px
     &__title
       font-size: 18px
       line-height: 23px
       text-align: center
+  .activities
+    padding-top: 40px
   .packages
     padding-bottom: 60px
     &-title

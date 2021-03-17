@@ -1760,21 +1760,6 @@ template {
   .navbar-top__user_mobile_hidden, .navbar-top__search_mobile_hidden {
     display: none;
   }
-  .navbar-top__user_mobile_visible, .navbar-top__search_mobile_visible {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-  .navbar-top__user_mobile_visible {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    color: #fff;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 18px;
-  }
   .navbar-bottom {
     display: none;
     position: fixed;
@@ -1815,6 +1800,16 @@ template {
     height: 1px;
     background-color: #333;
   }
+  .user_visible {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    color: #fff;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+  }
   .user__name {
     margin-top: 10px;
     margin-left: 0;
@@ -1827,6 +1822,11 @@ template {
   }
   .form-search__btn {
     width: 55px;
+  }
+  .form-search_visible {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
   .hotel {
     padding-bottom: 30px;
@@ -2038,7 +2038,6 @@ template {
     min-height: 400px;
   }
   .booking-card {
-    max-height: 180px;
     padding: 21px;
   }
   .booking-card__button {
@@ -2070,10 +2069,16 @@ template {
   .subscribe {
     width: 100%;
   }
+  .reviews {
+    padding-bottom: 50px;
+  }
   .reviews__title {
     font-size: 18px;
     line-height: 23px;
     text-align: center;
+  }
+  .activities {
+    padding-top: 40px;
   }
   .packages {
     padding-bottom: 60px;
