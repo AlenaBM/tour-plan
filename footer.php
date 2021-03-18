@@ -1,7 +1,7 @@
 <footer class="footer">
   <div class="container">
     <div class="footer-wrap footer-wrap--grid">
-      <a href="#" class="footer__logo">
+      <a href="https://alena-web.ru/homeworks/tour-plan/" class="footer__logo">
         <img src="img/footer/vertical-logo.svg" alt="Logo: Best Tour Plan" class="footer__logo" />
       </a>
 

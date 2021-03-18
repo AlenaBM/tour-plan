@@ -866,6 +866,7 @@ template {
   height: 55px;
   border-radius: 4px;
   overflow: hidden;
+  outline: none;
 }
 
 .subscribe__input {
@@ -880,6 +881,7 @@ template {
   font-size: 14px;
   line-height: 18px;
   padding-right: 75px;
+  outline: none;
 }
 
 .subscribe__btn {

@@ -8,14 +8,16 @@ require 'phpmailer/Exception.php';
 $name = $_POST['name'];
 $phone = $_POST['phone'];
 $message = $_POST['message'];
+$email = $_POST['email'];
 
 // Формирование самого письма
 $title = "Обращение Best Tour Plan";
 $body = "
 <h2>Новое письмо</h2>
 <b>Имя:</b> $name<br>
-<b>Почта:</b> $phone<br><br>
+<b>Телефон:</b> $phone<br><br>
 <b>Сообщение:</b><br>$message
+<b>E-mail:</b> $email<br>
 ";
 
 // Настройки PHPMailer
