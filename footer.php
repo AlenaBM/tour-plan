@@ -126,10 +126,10 @@
         <h3 class="footer__title footer__title--secondrow">
           Send us a message
         </h3>
-        <form action="#" class="footer__form">
-          <input type="text" class="input footer__input" placeholder="Your Full name" />
-          <input type="text" class="input footer__input" placeholder="Phone number" />
-          <textarea cols="30" rows="10" class="footer__message" placeholder="Message"></textarea>
+        <form action="send.php" method="POST" class="footer__form">
+          <input type="text" class="input footer__input" placeholder="Your Full name" name="name" />
+          <input type="text" class="input footer__input" placeholder="Phone number" name="phone" />
+          <textarea cols="30" rows="10" class="footer__message" placeholder="Message" name="message"></textarea>
           <button class="footer__button button">Send</button>
           <span class="footer__info">* Required Fields</span>
         </form>
