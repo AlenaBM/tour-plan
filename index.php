@@ -99,7 +99,7 @@
           </a>
         </div>
         <!-- /call-center -->
-        <button class="booking-card__button button">
+        <button data-toggle="modal" class="booking-card__button button">
           View Other Options
         </button>
       </div>
@@ -314,7 +314,7 @@
     </h2>
     <form action="send.php" class="subscribe newsletter__subscribe" method="POST">
       <input type="email" placeholder="Your email address" class="subscribe__input" name="email" />
-      <button class="subscribe__btn">Send</button>
+      <button type="submit" class="subscribe__btn">Send</button>
     </form>
   </div>
   <!-- /.newsletter-wrap -->

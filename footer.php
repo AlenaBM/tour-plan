@@ -126,11 +126,11 @@
         <h3 class="footer__title footer__title--secondrow">
           Send us a message
         </h3>
-        <form action="send.php" method="POST" class="footer__form">
-          <input type="text" class="input footer__input" placeholder="Your Full name" name="name" />
-          <input type="text" class="input footer__input" placeholder="Phone number" name="phone" />
-          <textarea cols="30" rows="10" class="footer__message" placeholder="Message" name="message"></textarea>
-          <button class="footer__button button">Send</button>
+        <form action="send.php" method="POST" class="footer__form form">
+          <input type="text" class="input footer__input" placeholder="Your Full name*" name="name" />
+          <input type="text" class="input footer__input" placeholder="Phone number*" name="phone" />
+          <textarea cols="30" rows="10" class="footer__message message" placeholder="Message" name="message"></textarea>
+          <button class="footer__button button" type="submit">Send</button>
           <span class="footer__info">* Required Fields</span>
         </form>
       </div>
@@ -158,11 +158,33 @@
   </div>
   <!-- /container -->
 </footer>
+<div class="modal" id="modalwindow">
+  <div class="modal__overlay"></div>
+  <!-- /.modal__overlay -->
+  <div class="modal__dialog">
+    <a href="#" class="modal__close">
+      <img src="close.svg" alt="Icon: close">
+    </a>
+    <h3 class="modal__title modal__title--secondrow">
+      Booking
+    </h3>
+    <form action="send.php" method="POST" class="modal__form form">
+      <input type="text" class="input modal__input" placeholder="Your Full name*" name="name" />
+      <input type="text" class="input modal__input" placeholder="Phone number*" name="phone" />
+      <input type="email" class="input modal__input" placeholder="Email*" name="email" />
+      <textarea cols="30" rows="10" class="modal__message message" placeholder="Message" name="message"></textarea>
+      <button class="modal__button button" type="submit">Send</button>
+      <span class="modal__info">* Required Fields</span>
+    </form>
+  </div>
+  <!-- /.modal__dialog -->
+</div>
+<!-- /.modal -->
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> -->
+<script src="js/jquery-3.6.0.min.js"></script>
 <script src="js/slider.js"></script>
 <script src="js/script.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script src="js/parallax.js-1.5.0/parallax.js"></script>
 </body>
-<!-- Here we will make a google map, form for booking :) -->
 
 </html>

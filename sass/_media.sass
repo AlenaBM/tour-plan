@@ -123,6 +123,19 @@
       &-form
         grid-row: 4
         grid-column: span 5
+  .modal
+    &__dialog
+      padding: 25px 60px
+    &__input
+      max-height: 40px
+    &__message
+      height: 100px
+    &__button
+      max-height: 40px
+      padding: 0
+    &__info
+      font-size: 10px
+      max-width: 82px
 // — до 768px
 @media (max-width: 768px)
   .container,
@@ -158,6 +171,7 @@
     &-bottom
       display: none
       position: fixed
+      height: 100%
       left: 0
       right: 0
       bottom: 0
@@ -165,6 +179,7 @@
       padding-top: 30px
       &--visible
         display: block
+        overflow: auto
   body
     padding-top: 76px
   .menu
@@ -213,6 +228,8 @@
     &-map
       width: 100%
   .newsletter
+    &__title
+      margin-bottom: 37px
     &-wrap
       flex-direction: column
       align-items: flex-start
@@ -271,7 +288,7 @@
           margin-bottom: 18px
           font-size: 18px
       &__abouthotel
-        font-size: 12px
+        font-size: 11px
         margin-bottom: 22px
       &__guests
         height: 54px
@@ -300,6 +317,10 @@
     &__social
       &-links
         min-width: 130px
+  .modal
+    &__dialog
+      width: 350px
+      padding: 30px 40px
 @media (max-width: 626px)
   .packages
     &-title
@@ -404,8 +425,6 @@
         grid-column-start: span 1
         height: 600px
         flex-direction: column
-      &__description
-        &--active
   .footer
     padding: 60px 0 55px 0
     &-wrap
@@ -470,3 +489,10 @@
         padding-bottom: 35px
       &__img
         left: 0
+  .modal
+    &__dialog
+      width: 300px
+    &__button
+      min-width: 100%
+      flex-basis: 100%
+      margin-bottom: 10px

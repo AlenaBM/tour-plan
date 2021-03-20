@@ -16,7 +16,7 @@ $body = "
 <h2>Новое письмо</h2>
 <b>Имя:</b> $name<br>
 <b>Телефон:</b> $phone<br><br>
-<b>Сообщение:</b><br>$message
+<b>Сообщение:</b><br>$message<br><br>
 <b>E-mail:</b> $email<br>
 ";
 
@@ -32,12 +32,14 @@ try {
   };
 
   // Настройки вашей почты
-  $mail->Host       = 'smtp.yandex.ru'; // SMTP сервера вашей почты
-  $mail->Username   = 'alenabisyaeva@yandex.ru'; // Логин на почте
-  $mail->Password   = 'vaivai1998'; // Пароль на почте
+  $mail->Host       = 'mail.alena-web.ru'; // SMTP сервера вашей почты
+  $mail->Username   = 'alena@alena-web.ru'; // Логин на почте
+  $mail->Password   = 'UriAl1998temple'; // Пароль на почте
   $mail->SMTPSecure = 'ssl';
-  $mail->Port       = 465;
-  $mail->setFrom('alenabisyaeva@yandex.ru', 'alenabisyaeva'); // Адрес самой почты и имя отправителя
+  $mail->SMTPAutoTLS = false;
+  $mail->SMTPSecure = false;
+  $mail->Port       = 25;
+  $mail->setFrom('alena@alena-web.ru', 'alena'); // Адрес самой почты и имя отправителя
 
   // Получатель письма
   $mail->addAddress('9642444600a@gmail.com');
