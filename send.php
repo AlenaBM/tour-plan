@@ -35,7 +35,7 @@ try {
 <<<<<<< HEAD
   $mail->Host       = 'mail.alena-web.ru'; // SMTP сервера вашей почты
   $mail->Username   = 'alena@alena-web.ru'; // Логин на почте
-  $mail->Password   = 'UriAl1998temple'; // Пароль на почте
+ 
 =======
   $mail->Host       = 'smtp.yandex.ru'; // SMTP сервера вашей почты
   $mail->Username   = 'alenabisyaeva@yandex.ru'; // Логин на почте
