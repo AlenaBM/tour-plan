@@ -127,8 +127,12 @@
           Send us a message
         </h3>
         <form action="send.php" method="POST" class="footer__form form">
-          <input type="text" class="input footer__input" placeholder="Your Full name*" name="name" />
-          <input type="text" class="input footer__input" placeholder="Phone number*" name="phone" />
+          <div class="footer__input-group">
+            <input type="text" class="input footer__input" placeholder="Your Full name*" name="name" required minlength="2" />
+          </div>
+          <div class="footer__input-group">
+            <input type="tel" class="input footer__input phone_mask" placeholder="Phone number*" name="phone" required />
+          </div>
           <textarea cols="30" rows="10" class="footer__message message" placeholder="Message" name="message"></textarea>
           <button class="footer__button button" type="submit">Send</button>
           <span class="footer__info">* Required Fields</span>
@@ -158,7 +162,7 @@
   </div>
   <!-- /container -->
 </footer>
-<div class="modal" id="modalwindow">
+<div class="modal">
   <div class="modal__overlay"></div>
   <!-- /.modal__overlay -->
   <div class="modal__dialog">
@@ -169,9 +173,9 @@
       Booking
     </h3>
     <form action="send.php" method="POST" class="modal__form form">
-      <input type="text" class="input modal__input" placeholder="Your Full name*" name="name" />
-      <input type="text" class="input modal__input" placeholder="Phone number*" name="phone" />
-      <input type="email" class="input modal__input" placeholder="Email*" name="email" />
+      <input type="text" class="input modal__input" placeholder="Your Full name*" name="name" required minlength="2" />
+      <input type="tel" class="input modal__input phone_mask" placeholder="Phone number*" name="phone" required />
+      <input type="email" class="input modal__input" placeholder="Email*" name="email" required />
       <textarea cols="30" rows="10" class="modal__message message" placeholder="Message" name="message"></textarea>
       <button class="modal__button button" type="submit">Send</button>
       <span class="modal__info">* Required Fields</span>
@@ -180,9 +184,10 @@
   <!-- /.modal__dialog -->
 </div>
 <!-- /.modal -->
-<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> -->
 <script src="js/jquery-3.6.0.min.js"></script>
 <script src="js/slider.js"></script>
+<script src="js/jquery.validate.min.js"></script>
+<script src="js/jquery.mask.min.js"></script>
 <script src="js/script.js"></script>
 <script src="js/parallax.js-1.5.0/parallax.js"></script>
 </body>
