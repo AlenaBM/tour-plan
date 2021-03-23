@@ -10,6 +10,7 @@
   <script src="https://api-maps.yandex.ru/2.1/?apikey=c4f3e61d-d9d6-4038-86b9-895785b12687&lang=en_US"></script>
   <script src="js/map.js"></script>
   <link rel="stylesheet" href="css/slider.css" />
+  <link rel="stylesheet" href="css/aos.css" />
   <link rel="stylesheet" href="css/style.css" />
   <title>Best Tour Plan - Hotel booking</title>
   <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png" />

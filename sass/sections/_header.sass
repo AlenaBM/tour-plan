@@ -7,6 +7,7 @@
     justify-content: space-between
     align-items: center
     font-size: 14px
+    box-sizing: border-box
     &__menu-button
       display: none
     &__search
@@ -56,9 +57,12 @@
     border: none
     background-color: $active-color
     cursor: pointer
+    &:hover
+      background-color: $shadow
 .user
   display: flex
   align-items: center
+  transition: ease 0.4
   &__img
     width: 40px
     height: 40px
@@ -68,3 +72,23 @@
     background-size: cover
   &__name
     margin-left: 18px
+  &:hover
+    opacity: 0.6
+.navbar-menu__item
+  a
+    &::after
+      content: ''
+      height: 2px
+      width: 0%
+      left: 0
+      bottom: 0
+      background-color: $active-color
+      display: block
+      -webkit-transition: width .3s ease-in-out
+      -moz--transition: width .3s ease-in-out
+      transition: width .3s ease-in-out
+.navbar-menu__item
+  a
+    &:hover
+      &::after
+        width: 100%

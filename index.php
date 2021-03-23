@@ -4,19 +4,19 @@
     <div class="hotel-info__text">
       <div class="hotel-wrap">
         <div class="stars">
-          <svg class="icon">
+          <svg class="icon" data-aos="fade-up-right" data-aos-delay="200">
             <use xlink:href="img/sprite.svg#star"></use>
           </svg>
-          <svg class="icon">
+          <svg class="icon" data-aos="fade-up-right" data-aos-delay="400">
             <use xlink:href="img/sprite.svg#star"></use>
           </svg>
-          <svg class="icon">
+          <svg class="icon" data-aos="fade-up-right" data-aos-delay="600">
             <use xlink:href="img/sprite.svg#star"></use>
           </svg>
-          <svg class="icon">
+          <svg class="icon" data-aos="fade-up-right" data-aos-delay="800">
             <use xlink:href="img/sprite.svg#star"></use>
           </svg>
-          <svg class="icon">
+          <svg class="icon" data-aos="fade-up-right" data-aos-delay="1000">
             <use xlink:href="img/sprite.svg#star"></use>
           </svg>
         </div>
@@ -119,7 +119,7 @@
   <!-- /hotel-grid -->
 </section>
 <section class="packages container">
-  <h2 class="packages-title packages__title">Other Packages</h2>
+  <h2 class="packages-title packages__title" data-aos="fade-up">Other Packages</h2>
   <div class="packages-grid">
     <div class="packages-card packages-card--active">
       <span class="packages-card__offer packages-card__offer--active offer">Flash Offer</span>
@@ -321,7 +321,7 @@
 </section>
 <!-- /.newsletter -->
 <section class="reviews container">
-  <h2 class="reviews__title">What people think about us</h2>
+  <h2 class="reviews__title" data-aos="fade-up">What people think about us</h2>
   <div class="swiper-container reviews-slider">
     <div class="swiper-wrapper">
       <div class="swiper-slide">
@@ -422,25 +422,25 @@
 <section class="activities container">
   <h2 class="activities__title">Other Activities</h2>
   <div class="activities-wrap">
-    <div class="card">
+    <div class="card" data-aos="fade-right" data-aos-delay="200">
       <img src="img/other_activities/activity-card1.jpg" alt="The curious corner of chamarel" class="card__img" />
       <h3 class="card__title">The curious corner of chamarel</h3>
       <button class="card__button button">Book Now</button>
     </div>
     <!-- /.card -->
-    <div class="card">
+    <div class="card" data-aos="fade-right" data-aos-delay="400">
       <img src="img/other_activities/activity-card2.jpg" alt="Gymkhana club golf course" class="card__img" />
       <h3 class="card__title">Gymkhana club golf course</h3>
       <button class="card__button button">Book Now</button>
     </div>
     <!-- /.card -->
-    <div class="card">
+    <div class="card" data-aos="fade-right" data-aos-delay="600">
       <img src="img/other_activities/activity-card3.jpg" alt="Tamarind falls hiking trip - full day" class="card__img" />
       <h3 class="card__title">Tamarind falls hiking trip - full day</h3>
       <button class="card__button button">Book Now</button>
     </div>
     <!-- /.card -->
-    <div class="card">
+    <div class="card" data-aos="fade-right" data-aos-delay="800">
       <img src="img/other_activities/activity-card4.jpg" alt="The blue marine discovery quest" class="card__img" />
       <h3 class="card__title">The blue marine discovery quest</h3>
       <button class="card__button button">Book Now</button>
