@@ -164,7 +164,7 @@
         <span class="packages-card__canceledprice">$ 10,500</span>
         <div class="packages-card__booking">
           <span class="packages-card__price">$ 8,500</span>
-          <button class="packages-card__button button">Book Now</button>
+          <button data-toggle="modal" class="packages-card__button button">Book Now</button>
         </div>
         <!-- /packages-card__booking -->
       </div>
@@ -197,7 +197,7 @@
         <span class="packages-card__canceledprice">$ 8,500</span>
         <div class="packages-card__booking">
           <span class="packages-card__price">$ 3,500</span>
-          <button class="packages-card__button button">Book Now</button>
+          <button data-toggle="modal" class="packages-card__button button">Book Now</button>
         </div>
         <!-- /packages-card__booking -->
       </div>
@@ -230,7 +230,7 @@
         <span class="packages-card__canceledprice">$ 10,500</span>
         <div class="packages-card__booking">
           <span class="packages-card__price">$ 9,500</span>
-          <button class="packages-card__button button">Book Now</button>
+          <button data-toggle="modal" class="packages-card__button button">Book Now</button>
         </div>
         <!-- /packages-card__booking -->
       </div>
@@ -263,7 +263,7 @@
         <span class="packages-card__canceledprice">$ 4,500</span>
         <div class="packages-card__booking">
           <span class="packages-card__price">$ 2,500</span>
-          <button class="packages-card__button button">Book Now</button>
+          <button data-toggle="modal" class="packages-card__button button">Book Now</button>
         </div>
         <!-- /packages-card__booking -->
       </div>
@@ -296,7 +296,7 @@
         <span class="packages-card__canceledprice">$ 6,500</span>
         <div class="packages-card__booking">
           <span class="packages-card__price">$ 3,500</span>
-          <button class="packages-card__button button">Book Now</button>
+          <button data-toggle="modal" class="packages-card__button button">Book Now</button>
         </div>
         <!-- /packages-card__booking -->
       </div>
@@ -312,7 +312,7 @@
       subscribe to our
       <span class="newsletter-title__strong"> newsletter </span>
     </h2>
-    <form action="send.php" class="subscribe newsletter__subscribe" method="POST">
+    <form action="send.php" class="subscribe newsletter__subscribe form" method="POST">
       <input type="email" placeholder="Your email address" class="subscribe__input" name="email" required />
       <button type="submit" class="subscribe__btn">Send</button>
     </form>
@@ -425,25 +425,25 @@
     <div class="card" data-aos="fade-right" data-aos-delay="200">
       <img src="img/other_activities/activity-card1.jpg" alt="The curious corner of chamarel" class="card__img" />
       <h3 class="card__title">The curious corner of chamarel</h3>
-      <button class="card__button button">Book Now</button>
+      <button data-toggle="modal" class="card__button button">Book Now</button>
     </div>
     <!-- /.card -->
     <div class="card" data-aos="fade-right" data-aos-delay="400">
       <img src="img/other_activities/activity-card2.jpg" alt="Gymkhana club golf course" class="card__img" />
       <h3 class="card__title">Gymkhana club golf course</h3>
-      <button class="card__button button">Book Now</button>
+      <button data-toggle="modal" class="card__button button">Book Now</button>
     </div>
     <!-- /.card -->
     <div class="card" data-aos="fade-right" data-aos-delay="600">
       <img src="img/other_activities/activity-card3.jpg" alt="Tamarind falls hiking trip - full day" class="card__img" />
       <h3 class="card__title">Tamarind falls hiking trip - full day</h3>
-      <button class="card__button button">Book Now</button>
+      <button data-toggle="modal" class="card__button button">Book Now</button>
     </div>
     <!-- /.card -->
     <div class="card" data-aos="fade-right" data-aos-delay="800">
       <img src="img/other_activities/activity-card4.jpg" alt="The blue marine discovery quest" class="card__img" />
       <h3 class="card__title">The blue marine discovery quest</h3>
-      <button class="card__button button">Book Now</button>
+      <button data-toggle="modal" class="card__button button">Book Now</button>
     </div>
     <!-- /.card -->
   </div>

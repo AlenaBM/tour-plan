@@ -491,6 +491,7 @@ template {
   background: #F5FAFE;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  color: #333;
   width: 350px;
   height: 100%;
   border: none;
@@ -961,15 +962,14 @@ template {
   position: relative;
   width: 350px;
   height: 55px;
-  border-radius: 4px;
-  overflow: hidden;
   outline: none;
 }
 
 .subscribe__input {
-  position: absolute;
+  display: inline-block;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  border-radius: 4px;
   width: 100%;
   height: 100%;
   padding-left: 33px;
@@ -983,6 +983,8 @@ template {
 
 .subscribe__btn {
   position: absolute;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
   right: 0;
   top: 0;
   height: 100%;
@@ -1332,7 +1334,7 @@ template {
 }
 
 .packages-card__description--active {
-  padding: 42px 20px 30px 43px;
+  padding: 42px 20px 20px 43px;
 }
 
 .packages-card__title {
@@ -1395,6 +1397,7 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-top: 10px;
 }
 
 .packages-card__price {
@@ -1742,7 +1745,7 @@ template {
   font-size: 12px;
   line-height: 15px;
   color: #E0E0E0;
-  max-width: 97px;
+  max-width: 99px;
   -ms-flex-preferred-size: 45%;
       flex-basis: 45%;
 }
@@ -1781,6 +1784,9 @@ template {
     -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
   }
+  .packages-card__booking {
+    margin-top: 0;
+  }
 }
 
 @media (max-width: 992px) {
@@ -1807,6 +1813,9 @@ template {
   }
   .form-search__input {
     width: 340px;
+  }
+  .form-search__btn:hover {
+    background-color: #EC1F46;
   }
   .hotel-grid {
     -webkit-box-orient: vertical;
@@ -1952,6 +1961,12 @@ template {
     font-size: 10px;
     max-width: 82px;
   }
+  .button:hover {
+    background-color: #EC1F46;
+  }
+  .offer:hover {
+    background-color: #EC1F46;
+  }
 }
 
 @media (max-width: 768px) {
@@ -2000,7 +2015,7 @@ template {
   }
   .navbar-bottom--visible {
     display: block;
-    overflow: auto;
+    overflow: scroll;
   }
   body {
     padding-top: 76px;
@@ -2478,14 +2493,32 @@ template {
   .modal__dialog {
     width: 300px;
   }
+  .modal__info {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
   .modal__button {
     min-width: 100%;
     -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
-    margin-bottom: 10px;
+    margin: 0;
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
   }
   .thanks-button {
     width: 100%;
+  }
+}
+
+@media (max-height: 421px) {
+  .modal__dialog--visible {
+    overflow: scroll;
+    height: 100vh;
+    border-radius: 0;
   }
 }
 /*# sourceMappingURL=style.css.map */

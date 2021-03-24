@@ -28,7 +28,7 @@
       <div class="navbar-top">
         <a href="https://alena-web.ru/homeworks/tour-plan/" class="logo"><img src="img/logo-horizontal.svg" class="logo__img" alt="Logo: Best Tour Plan" /></a>
         <form action="#" class="form-search navbar-top__search navbar-top__search_mobile_hidden">
-          <input type="text" placeholder="Search Location" class="form-search__input" />
+          <input type="text" placeholder="Search Location" class="form-search__input" required />
           <button class="form-search__btn">
             <img src="img/search.svg" alt="Button: search" />
           </button>

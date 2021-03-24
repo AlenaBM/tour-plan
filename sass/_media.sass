@@ -20,6 +20,10 @@
   .footer
     &__input
       flex-basis: 100%
+  .packages
+    &-card
+      &__booking
+        margin-top: 0
 // — до 992px
 @media (max-width: 992px)
   .container,
@@ -43,6 +47,9 @@
   .form-search
     &__input
       width: 340px
+    &__btn
+      &:hover
+        background-color: $active-color
   .hotel
     &-grid
       flex-direction: column
@@ -143,6 +150,12 @@
     &__info
       font-size: 10px
       max-width: 82px
+  .button
+    &:hover
+      background-color: $active-color
+  .offer
+    &:hover
+      background-color: $active-color
 // — до 768px
 @media (max-width: 768px)
   .container,
@@ -186,7 +199,7 @@
       padding-top: 30px
       &--visible
         display: block
-        overflow: auto
+        overflow: scroll
   body
     padding-top: 76px
   .menu
@@ -505,10 +518,22 @@
   .modal
     &__dialog
       width: 300px
+    &__info
+      order: 1
+      margin-top: 15px
+      margin-bottom: 10px
     &__button
       min-width: 100%
       flex-basis: 100%
-      margin-bottom: 10px
+      margin: 0
+      order: 2
   .thanks
     &-button
       width: 100%
+@media (max-height: 421px)
+  .modal
+    &__dialog
+      &--visible
+        overflow: scroll
+        height: 100vh
+        border-radius: 0
