@@ -1539,6 +1539,20 @@ template {
   margin-bottom: 20px;
 }
 
+.footer__item-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.footer__item__contactlink {
+  color: #BDBDBD;
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+}
+
 .footer__link {
   color: inherit;
 }
@@ -1937,7 +1951,7 @@ template {
   .footer__contact-details {
     -ms-grid-row: 3;
     grid-row: 3;
-    grid-column: span 4;
+    grid-column: span 5;
   }
   .footer__contact-form {
     -ms-grid-row: 4;
