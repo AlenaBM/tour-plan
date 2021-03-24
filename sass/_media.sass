@@ -156,6 +156,16 @@
   .offer
     &:hover
       background-color: $active-color
+  .navbar-menu__item
+    a
+      &:hover
+        &::after
+          width: 0%
+  .breadcrumb-list__link
+    a
+      &:hover
+        &::before
+          width: 0%
 // — до 768px
 @media (max-width: 768px)
   .container,

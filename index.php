@@ -45,7 +45,7 @@
       <div class="swiper-wrapper">
         <!-- Slides -->
         <div class="swiper-slide hotel-slider__item">
-          <img src="img/slider-hotel-grid/slide.jpg" alt="Slide" class="hotel-slider__img" />
+          <img src="img/slider-hotel-grid/slide1.jpg" alt="Slide" class="hotel-slider__img" />
         </div>
         <div class="swiper-slide hotel-slider__item">
           <img src="img/slider-hotel-grid/slide2.jpg" alt="Slide" class="hotel-slider__img" />
