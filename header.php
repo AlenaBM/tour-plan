@@ -7,8 +7,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="preconnect" href="https://fonts.gstatic.com" />
   <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet" />
-  <script src="https://api-maps.yandex.ru/2.1/?apikey=c4f3e61d-d9d6-4038-86b9-895785b12687&lang=en_US"></script>
-  <script src="js/map.js"></script>
   <link rel="stylesheet" href="css/slider.css" />
   <link rel="stylesheet" href="css/aos.css" />
   <link rel="stylesheet" href="css/style.css" />

@@ -192,6 +192,7 @@
   <script src="js/jquery.validate.min.js"></script>
   <script src="js/jquery.mask.min.js"></script>
   <script src="js/aos.js"></script>
+  <script src="js/map.js"></script>
   <script src="js/script.js"></script>
   <script src="js/parallax.js-1.5.0/parallax.js"></script>
   </body>
