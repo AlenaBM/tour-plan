@@ -13,10 +13,10 @@
     &__button
       @include arrows_for_slider
       &--next
-        right: 0px
+        right: 15px
         background-image: url(../img/slider-reviews/next.svg)
       &--prev
-        left: 0px
+        left: 15px
         background-image: url(../img/slider-reviews/prev.svg)
     &__item
       display: flex
@@ -26,6 +26,7 @@
       border-radius: 8px
       margin: 45px auto 0
       max-width: 730px
+      max-height: 284px
       padding: 0 62px 30px
       position: relative
       box-sizing: border-box
@@ -52,7 +53,7 @@
       flex-direction: column
       align-items: center
       margin-top: -45px
-      margin-bottom: 30px
+      margin-bottom: 35px
     &__avatar
       width: 90px
       height: 90px
@@ -85,3 +86,4 @@
       text-align: justify
       margin: auto
       z-index: 99
+      overflow-y: auto

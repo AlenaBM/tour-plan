@@ -18,6 +18,10 @@
       &__abouthotel
         font-size: 13px
   .footer
+    &__additional
+      min-width: 220px
+    &__legal
+      padding-left: 0
     &__input
       flex-basis: 100%
   .packages
@@ -114,22 +118,23 @@
       width: 104px
       height: 120px
       grid-row: 1 / 2
-      grid-column: span 2
+      grid-column: 1 / 2
     &-bottom
       &__info
         margin-left: 0px
     &__social
       &-network
         grid-row: 1 / 2
-        grid-column: span 4
+        grid-column: 2 / 7
         align-self: center
     &__categories
+      width: 160px
       grid-row: 2 / 3
-      grid-column: span 2
     &__legal
       grid-column: span 2
     &__additional
-      grid-column: span 2
+      grid-column: span 3
+      margin: 0 auto
     &__contact
       &-details
         grid-row: 3
@@ -140,6 +145,7 @@
   .modal
     &__dialog
       padding: 25px 60px
+      width: 400px
     &__input
       max-height: 40px
     &__message
@@ -167,7 +173,7 @@
         &::before
           width: 0%
 // — до 768px
-@media (max-width: 768px)
+@media (max-width: 767px)
   .container,
   .newsletter-wrap
     width: 88%
@@ -288,10 +294,9 @@
   .activities
     &-wrap
       flex-wrap: wrap
-      min-height: 1100px
       align-content: space-between
   .card
-    min-width: 100%
+    min-width: 48%
     max-height: 255px
   .packages
     &-title
@@ -341,7 +346,7 @@
     &__title
       &--inline
         font-weight: bold
-        font-size: 18px
+        font-size: 28px
         line-height: 23px
     &__icon
       width: 36px
@@ -398,8 +403,8 @@
     &-slider
       height: 180px
       &__button
-        width: 10px
-        height: 10px
+        background-size: 7px
+        top: 50%
         &--next
           right: 6px
         &--prev
@@ -443,6 +448,12 @@
       text-align: center
   .activities
     padding-top: 40px
+    &-wrap
+      flex-direction: column
+      align-content: center
+      height: 1090px
+  .card
+    min-width: 340px
   .packages
     padding-bottom: 60px
     &-title
@@ -492,6 +503,7 @@
         display: flex
         flex-direction: column
         align-items: flex-start
+        margin-top: 27px
     &__legal
       grid-row: 3
       grid-column: 1
@@ -547,6 +559,12 @@
   .thanks
     &-button
       width: 100%
+  .footer
+    &__additional
+      margin: 0
+    &__title
+      &--inline
+        font-size: 18px
 @media (max-height: 421px)
   .modal
     &__dialog
