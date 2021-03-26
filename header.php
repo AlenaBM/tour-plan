@@ -48,14 +48,14 @@
 
     <div class="navbar-bottom">
       <ul class="navbar-menu container">
-        <li class="navbar-menu__item navbar-menu__item_mobile_visible">
+        <li class="navbar-menu__item navbar-menu__item_mobile_visible navbar-menu__item_mobile_visible_user">
           <a href="#" class="user user_visible">
             <img src="img/user.jpg" alt="User: Nathan" class="user__img img-poly" />
             <span class="user__name">Nathan</span>
           </a>
           <!-- /.user -->
         </li>
-        <li class="navbar-menu__item navbar-menu__item_mobile_visible">
+        <li class="navbar-menu__item navbar-menu__item_mobile_visible navbar-menu__item_mobile_visible_form">
           <form action="#" class="form-search form-search_visible">
             <input type="text" placeholder="Search Location" class="form-search__input" />
             <button class="form-search__btn">

@@ -3,7 +3,7 @@
   <div class="hotel-info container">
     <div class="hotel-info__text">
       <div class="hotel-wrap">
-        <div class="stars">
+        <div class="stars stars_hotel">
           <svg class="icon" data-aos="fade-up-right" data-aos-delay="200">
             <use xlink:href="img/sprite.svg#star"></use>
           </svg>
@@ -426,27 +426,27 @@
 <section class="activities container">
   <h2 class="activities__title">Other Activities</h2>
   <div class="activities-wrap">
-    <div class="card" data-aos="fade-right" data-aos-delay="200">
+    <div class="card card_corner" data-aos="fade-right" data-aos-delay="200">
       <img src="img/other_activities/activity-card1.jpg" alt="The curious corner of chamarel" class="card__img" />
-      <h3 class="card__title">The curious corner of chamarel</h3>
+      <h3 class="card__title">The curious corner<br> of chamarel</h3>
       <button data-toggle="modal" class="card__button button">Book Now</button>
     </div>
     <!-- /.card -->
-    <div class="card" data-aos="fade-right" data-aos-delay="400">
+    <div class="card card_golf" data-aos="fade-right" data-aos-delay="400">
       <img src="img/other_activities/activity-card2.jpg" alt="Gymkhana club golf course" class="card__img" />
-      <h3 class="card__title">Gymkhana club golf course</h3>
+      <h3 class="card__title">Gymkhana club golf<br> course</h3>
       <button data-toggle="modal" class="card__button button">Book Now</button>
     </div>
     <!-- /.card -->
-    <div class="card" data-aos="fade-right" data-aos-delay="600">
+    <div class="card card_falls" data-aos="fade-right" data-aos-delay="600">
       <img src="img/other_activities/activity-card3.jpg" alt="Tamarind falls hiking trip - full day" class="card__img" />
-      <h3 class="card__title">Tamarind falls hiking trip - full day</h3>
+      <h3 class="card__title">Tamarind falls hiking<br> trip - full day</h3>
       <button data-toggle="modal" class="card__button button">Book Now</button>
     </div>
     <!-- /.card -->
-    <div class="card" data-aos="fade-right" data-aos-delay="800">
+    <div class="card card_quest" data-aos="fade-right" data-aos-delay="800">
       <img src="img/other_activities/activity-card4.jpg" alt="The blue marine discovery quest" class="card__img" />
-      <h3 class="card__title">The blue marine discovery quest</h3>
+      <h3 class="card__title">The blue marine discovery<br> quest</h3>
       <button data-toggle="modal" class="card__button button">Book Now</button>
     </div>
     <!-- /.card -->
