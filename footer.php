@@ -62,9 +62,9 @@
         <div class="footer__social-network">
           <h3 class="footer__title footer__title--inline">Social Network</h3>
           <div class="footer__social-links">
-            <a href="#" class="footer__link"><img src="img/footer/facebook.svg" alt="Icon: facebook" class="footer__icon" /></a>
-            <a href="#" class="footer__link"><img src="img/footer/youtube.svg" alt="Icon: YouTube" class="footer__icon" /></a>
-            <a href="#" class="footer__link"><img src="img/footer/instagram.svg" alt="Icon: instagram" class="footer__icon" /></a>
+            <a href="#" target="_blank" rel="nofollow noopener" class="footer__link"><img src="img/footer/facebook.svg" alt="Icon: facebook" class="footer__icon" /></a>
+            <a href="#" target="_blank" rel="nofollow noopener" class="footer__link"><img src="img/footer/youtube.svg" alt="Icon: YouTube" class="footer__icon" /></a>
+            <a href="#" target="_blank" rel="nofollow noopener" class="footer__link"><img src="img/footer/instagram.svg" alt="Icon: instagram" class="footer__icon" /></a>
           </div>
           <!-- /.footer__social-links -->
         </div>
@@ -109,7 +109,7 @@
               </div>
               <!-- /.footer__icon-wrap -->
               <div class="footer__item-wrap">
-                <a class="footer__item__contactlink" href="tel:269 1500">Tel (business hours) :269 1500</a><br />
+                <a class="footer__item__contactlink" href="tel:2691500">Tel (business hours) :269 1500</a><br />
                 <a class="footer__item__contactlink" href="tel:52-56-61-38">Tel (hotline) Monday - Saturday: 52-56-61-38 (08:00 am – 20:00 pm)</a> <br />
                 <a class="footer__item__contactlink" href="tel:52-56-61-38">Tel (hotline) Sunday: 52-56-61-38 (08:00 am – 14:00 pm)</a>
               </div>
@@ -134,7 +134,7 @@
               <input type="text" class="input footer__input" placeholder="Your Full name*" name="name" required minlength="2" />
             </div>
             <div class="footer__input-group">
-              <input type="tel" class="input footer__input input_num" placeholder="Phone number*" name="phone" required />
+              <input type="tel" class="input footer__input input_num" placeholder="Phone number*" name="phone" required minlength="9" />
             </div>
             <textarea cols="30" rows="10" class="footer__message message" placeholder="Message" name="message"></textarea>
             <button class="footer__button button" type="submit">Send</button>
@@ -177,7 +177,7 @@
       </h3>
       <form action="send.php" method="POST" class="modal__form form">
         <input type="text" class="input modal__input" placeholder="Your Full name*" name="name" required minlength="2" />
-        <input type="tel" class="input modal__input input_num" placeholder="Phone number*" name="phone" required />
+        <input type="tel" class="input modal__input input_num" placeholder="Phone number*" name="phone" required minlength="9" />
         <input type="email" class="input modal__input" placeholder="Email*" name="email" required />
         <textarea cols="30" rows="10" class="modal__message message" placeholder="Message" name="message"></textarea>
         <button class="modal__button button" type="submit">Send</button>

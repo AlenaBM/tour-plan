@@ -19,7 +19,7 @@
         font-size: 13px
   .footer
     &__additional
-      min-width: 220px
+      min-width: 250px
     &__legal
       padding-left: 0
     &__input
@@ -100,11 +100,8 @@
     &__title
       &--inline
         font-weight: bold
-        font-size: 27.75px
-        line-height: 35px
-    &__icon
-      width: 30px
-      height: 30px
+        font-size: 18px
+        line-height: 23px
     &__social
       &-links
         min-width: 131px
@@ -156,10 +153,7 @@
     &__info
       font-size: 10px
       max-width: 82px
-  .button
-    &:hover
-      background-color: $active-color
-  .offer
+  .button, .offer
     &:hover
       background-color: $active-color
   .navbar-menu__item
@@ -176,7 +170,7 @@
 @media (max-width: 767px)
   .container,
   .newsletter-wrap
-    width: 88%
+    width: 91%
   .navbar
     &-menu
       font-size: 12px
@@ -341,19 +335,33 @@
       &__canceledprice
         display: none
   .footer
+    padding-top: 40px
+    &-wrap
+      row-gap: 58px
+      &--grid
+        margin-bottom: 62px
+    &__additional
+      min-width: 220px
+    &__contact
+      &-details
+        padding-top: 0
+      &-form
+        max-width: 540px
     &__input
       flex-basis: 100%
     &__title
       &--inline
         font-weight: bold
-        font-size: 28px
+        font-size: 18px
         line-height: 23px
-    &__icon
-      width: 36px
-      height: 36px
+    &__social
+      &-network
+        margin-top: 53px
     &__social
       &-links
-        min-width: 130px
+        min-width: 85px
+    &__text
+      margin-bottom: 25px
   .modal
     &__dialog
       width: 350px
@@ -570,5 +578,6 @@
     &__dialog
       &--visible
         overflow: scroll
-        height: 100vh
-        border-radius: 0
+        height: 90%
+        padding-top: 40px
+        padding-bottom: 50px
