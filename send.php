@@ -56,17 +56,17 @@ try {
   };
 
   // Настройки вашей почты
-  $mail->Host       = 'mail.alena-web.ru'; // SMTP сервера вашей почты
-  $mail->Username   = 'alena@alena-web.ru'; // Логин на почте
-  $mail->Password   = 'UriAl1998temple'; // Пароль на почте
+  $mail->Host       =  // SMTP сервера вашей почты
+  $mail->Username   =  // Логин на почте
+  $mail->Password   =  // Пароль на почте
   $mail->SMTPSecure = 'ssl';
   $mail->SMTPAutoTLS = false;
   $mail->SMTPSecure = false;
   $mail->Port       = 25;
-  $mail->setFrom('alena@alena-web.ru', 'alena'); // Адрес самой почты и имя отправителя
+  $mail->setFrom(); // Адрес самой почты и имя отправителя
 
   // Получатель письма
-  $mail->addAddress('9642444600a@gmail.com');
+  $mail->addAddress();
 
 
   // Отправка сообщения
@@ -97,17 +97,17 @@ try {
   };
 
   // Настройки вашей почты
-  $mailNL->Host       = 'mail.alena-web.ru'; // SMTP сервера вашей почты
-  $mailNL->Username   = 'alena@alena-web.ru'; // Логин на почте
-  $mailNL->Password   = 'UriAl1998temple'; // Пароль на почте
+  $mailNL->Host       = ; // SMTP сервера вашей почты
+  $mailNL->Username   = '; // Логин на почте
+  $mailNL->Password   = ; // Пароль на почте
   $mailNL->SMTPSecure = 'ssl';
   $mailNL->SMTPAutoTLS = false;
   $mailNL->SMTPSecure = false;
   $mailNL->Port       = 25;
-  $mailNL->setFrom('alena@alena-web.ru', 'alena'); // Адрес самой почты и имя отправителя
+  $mailNL->setFrom('); // Адрес самой почты и имя отправителя
 
   // Получатель письма
-  $mailNL->addAddress('9642444600a@gmail.com');
+  $mailNL->addAddress('');
   // Отправка сообщения
   $mailNL->isHTML(true);
   $mailNL->Subject = $titleNewsLetter;
@@ -135,17 +135,17 @@ try {
   };
 
   // Настройки вашей почты
-  $mailFooter->Host       = 'mail.alena-web.ru'; // SMTP сервера вашей почты
-  $mailFooter->Username   = 'alena@alena-web.ru'; // Логин на почте
-  $mailFooter->Password   = 'UriAl1998temple'; // Пароль на почте
+  $mailFooter->Host       = ; // SMTP сервера вашей почты
+  $mailFooter->Username   = ; // Логин на почте
+  $mailFooter->Password   = ; // Пароль на почте
   $mailFooter->SMTPSecure = 'ssl';
   $mailFooter->SMTPAutoTLS = false;
   $mailFooter->SMTPSecure = false;
   $mailFooter->Port       = 25;
-  $mailFooter->setFrom('alena@alena-web.ru', 'alena'); // Адрес самой почты и имя отправителя
+  $mailFooter->setFrom(); // Адрес самой почты и имя отправителя
 
   // Получатель письма
-  $mailFooter->addAddress('9642444600a@gmail.com');
+  $mailFooter->addAddress();
 
   // Отправка сообщения
   $mailFooter->isHTML(true);
