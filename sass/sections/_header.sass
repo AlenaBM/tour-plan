@@ -22,6 +22,7 @@
     display: flex
     justify-content: space-between
     font-size: 14px
+    font-weight: 700
     line-height: 18px
     &__item
       &_mobile
@@ -58,6 +59,9 @@
     border: none
     background-color: $active-color
     cursor: pointer
+    white-space: nowrap
+    overflow: hidden
+    text-overflow: ellipsis
     &:hover
       background-color: $shadow
 .user

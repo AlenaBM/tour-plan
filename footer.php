@@ -9,28 +9,28 @@
           <h3 class="footer__title">ALL CATEGORIES</h3>
           <ul class="footer__ul">
             <li class="footer__item">
-              <a href="#" class="footer__link">All Deals</a>
+              <a href="#" target="_blank" rel="nofollow noopener" class="footer__link">All Deals</a>
             </li>
             <li class="footer__item">
-              <a href="#" class="footer__link">Hotels</a>
+              <a href="#" target="_blank" rel="nofollow noopener" class="footer__link">Hotels</a>
             </li>
             <li class="footer__item">
-              <a href="#" class="footer__link">Activities</a>
+              <a href="#" target="_blank" rel="nofollow noopener" class="footer__link">Activities</a>
             </li>
             <li class="footer__item">
-              <a href="#" class="footer__link">Spa Packages </a>
+              <a href="#" target="_blank" rel="nofollow noopener" class="footer__link">Spa Packages </a>
             </li>
             <li class="footer__item">
-              <a href="#" class="footer__link">Hotel Day Packages</a>
+              <a href="#" target="_blank" rel="nofollow noopener" class="footer__link">Hotel Day Packages</a>
             </li>
             <li class="footer__item">
-              <a href="#" class="footer__link">Restaurants</a>
+              <a href="#" target="_blank" rel="nofollow noopener" class="footer__link">Restaurants</a>
             </li>
             <li class="footer__item">
-              <a href="#" class="footer__link">Fitness</a>
+              <a href="#" target="_blank" rel="nofollow noopener" class="footer__link">Fitness</a>
             </li>
             <li class="footer__item">
-              <a href="#" class="footer__link">Rodrigues</a>
+              <a href="#" target="_blank" rel="nofollow noopener" class="footer__link">Rodrigues</a>
             </li>
           </ul>
         </div>
@@ -39,22 +39,22 @@
           <h3 class="footer__title">ADDITIONAL INFORMATION</h3>
           <ul class="footer__ul">
             <li class="footer__item">
-              <a href="#" class="footer__link">About Us</a>
+              <a href="#" target="_blank" rel="nofollow noopener" class="footer__link">About Us</a>
             </li>
             <li class="footer__item">
-              <a href="#" class="footer__link">Contact Us </a>
+              <a href="#" target="_blank" rel="nofollow noopener" class="footer__link">Contact Us </a>
             </li>
             <li class="footer__item">
-              <a href="#" class="footer__link">How does it work?</a>
+              <a href="#" target="_blank" rel="nofollow noopener" class="footer__link">How does it work?</a>
             </li>
             <li class="footer__item">
-              <a href="#" class="footer__link">Frequently Asked Questions</a>
+              <a href="#" target="_blank" rel="nofollow noopener" class="footer__link">Frequently Asked Questions</a>
             </li>
             <li class="footer__item">
-              <a href="#" class="footer__link">Deals.mu loyalty program</a>
+              <a href="#" target="_blank" rel="nofollow noopener" class="footer__link">Deals.mu loyalty program</a>
             </li>
             <li class="footer__item">
-              <a href="#" class="footer__link">Promote your Business on BTP</a>
+              <a href="#" target="_blank" rel="nofollow noopener" class="footer__link">Promote your Business on BTP</a>
             </li>
           </ul>
         </div>
@@ -73,16 +73,16 @@
           <h3 class="footer__title">LEGAL INFORMATION</h3>
           <ul class="footer__ul">
             <li class="footer__item">
-              <a href="#" class="footer__link">Terms & Conditions </a>
+              <a href="#" target="_blank" rel="nofollow noopener" class="footer__link">Terms & Conditions </a>
             </li>
             <li class="footer__item">
-              <a href="#" class="footer__link">Disclaimer </a>
+              <a href="#" target="_blank" rel="nofollow noopener" class="footer__link">Disclaimer </a>
             </li>
             <li class="footer__item">
-              <a href="#" class="footer__link">Cancellation policy </a>
+              <a href="#" target="_blank" rel="nofollow noopener" class="footer__link">Cancellation policy </a>
             </li>
             <li class="footer__item">
-              <a href="#" class="footer__link">Privacy</a>
+              <a href="#" target="_blank" rel="nofollow noopener" class="footer__link">Privacy</a>
             </li>
           </ul>
         </div>
@@ -109,18 +109,18 @@
               </div>
               <!-- /.footer__icon-wrap -->
               <div class="footer__item-wrap">
-                <a class="footer__item__contactlink" href="tel:2691500">Tel (business hours) :269 1500</a><br />
-                <a class="footer__item__contactlink" href="tel:52-56-61-38">Tel (hotline) Monday - Saturday: 52&#8209;56-61-38 (08:00 am – 20:00 pm)</a> <br />
-                <a class="footer__item__contactlink" href="tel:52-56-61-38">Tel (hotline) Sunday: 52-56-61-38 (08:00 am – 14:00 pm)</a>
+                <span>Tel (business hours): <a class="footer__item__contactlink" href="tel:2691500">269 1500</a></span><br />
+                <span>Tel (hotline) Monday - Saturday: <a class="footer__item__contactlink" href="tel:52-56-61-38">52&#8209;56-61-38</a> (08:00 am – 20:00 pm)</span>
+                <span>Tel (hotline) Sunday: <a class="footer__item__contactlink" href="tel:52-56-61-38">52-56-61-38</a> (08:00 am – 14:00 pm)</span>
               </div>
               <!-- /footer__item-wrap -->
             </li>
-            <li class="footer__item">
+            <li class="footer__item footer__item__mail">
               <div class="footer__icon-wrap">
                 <img src="img/footer/email.svg" alt="Company's mail" />
               </div>
               <!-- /.footer__icon-wrap -->
-              <a class="footer__item__contactlink" href="mailto:cherly.lawson@example.com">cherly.lawson@example.com</a>
+              <a class="footer__item__contactlink" href="mailto:cherly.lawson@example.com"><span class="footer__item__num">cherly.lawson@example.com</span></a>
             </li>
           </ul>
         </div>
@@ -131,12 +131,12 @@
           </h3>
           <form action="send.php" method="POST" class="footer__form form">
             <div class="footer__input-group">
-              <input type="text" class="input footer__input" placeholder="Your Full name*" name="name" required minlength="2" />
+              <input type="text" class="input footer__input" placeholder="Your Full name*" name="name_footer" required minlength="2" />
             </div>
             <div class="footer__input-group">
-              <input type="tel" class="input footer__input input_num" placeholder="Phone number*" name="phone" required minlength="18" />
+              <input type="tel" class="input footer__input input_num" placeholder="Phone number*" name="phone_footer" required minlength="18" />
             </div>
-            <textarea cols="30" rows="10" class="footer__message message" placeholder="Message" name="message"></textarea>
+            <textarea cols="30" rows="10" class="footer__message message" placeholder="Message" name="message_footer"></textarea>
             <button class="footer__button button" type="submit">Send</button>
             <span class="footer__info">* Required Fields</span>
           </form>

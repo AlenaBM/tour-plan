@@ -165,7 +165,7 @@
       </div>
       <!-- /.packages-card__description -->
     </div>
-    <!-- /.packages-card--active -->
+    <!-- /.packages-card-active -->
     <div class="packages-card">
       <span class="packages-card__offer offer">Flash Offer</span>
       <img src="img/packages-grid/card-hotel-2.jpeg" alt="LUX* Belle Mare" class="packages-card__img" />
@@ -308,7 +308,7 @@
       <span class="newsletter-title__strong"> newsletter </span>
     </h2>
     <form action="send.php" class="subscribe newsletter__subscribe form" method="POST">
-      <input type="email" placeholder="Your email address" class="subscribe__input" name="email" required />
+      <input type="email" placeholder="Your email address" class="subscribe__input" name="email_newsLetter" required />
       <button type="submit" class="subscribe__btn">Send</button>
     </form>
   </div>
@@ -428,7 +428,7 @@
   <div class="activities-wrap">
     <div class="card card_corner" data-aos="fade-right" data-aos-delay="200">
       <img src="img/other_activities/activity-card1.jpg" alt="The curious corner of chamarel" class="card__img" />
-      <h3 class="card__title">The curious corner<br> of chamarel</h3>
+      <h3 class="card__title">The curious corner<br>of chamarel</h3>
       <button data-toggle="modal" class="card__button button">Book Now</button>
     </div>
     <!-- /.card -->
